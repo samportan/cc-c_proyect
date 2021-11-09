@@ -56,9 +56,7 @@ body {
 section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+
   width: 100%;
   height: 100vh;
 }
@@ -72,7 +70,40 @@ section p {
 }
 
 section#Home {
+  justify-content: center;
     color: white;
   background: url(/style/img/li-an-lim-ycW4YxhrWHM-unsplash.jpg) no-repeat
     center center/cover;
+    text-align: center;
+}
+
+section#Hub {
+  text-align: center;
+}
+
+.section_title {
+  margin-top: 100px;
+  text-align: center;
+}
+
+section#Forum {
+  justify-content: center;
+  text-align: center;
+}
+
+section#About {
+  justify-content: center;
+  text-align: center;
+}
+
+section#Home .quote {
+  margin-bottom: -40%;
+}
+
+@media screen and (max-width: 1525px) {
+  section#About {
+    margin-top: 50%;
+    justify-content: center;
+    text-align: center;
+  }
 }
